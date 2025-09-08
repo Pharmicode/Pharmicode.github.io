@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+     <!-- Hide from search engines while editing -->
+  <meta name="robots" content="noindex,nofollow"> 
+
+  <title>Jonathan Crandall — CV / Resume</title>
+  <meta name="description" content="Personal CV and Resume site for Jonathan Crandall (Biomedical Sciences & Pharmacy Informatics)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;         /* slate-900 */
+      --surface: #111827;    /* gray-900 */
+      --soft: #1f2937;       /* gray-800 */
+      --text: #e5e7eb;       /* gray-200 */
+      --muted: #9ca3af;      /* gray-400 */
+      --accent: #38bdf8;     /* sky-400 */
+      --pill: #0ea5e9;       /* sky-500 */
+      --link: #60a5fa;       /* blue-400 */
+      --ok: #34d399;         /* emerald-400 */
+      --warn: #f59e0b;       /* amber-500 */
+      --danger: #f87171;     /* red-400 */
+      --shadow: 0 10px 30px rgba(0,0,0,.4);
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 10% -10%, rgba(56,189,248,.08), transparent 70%),
+                  radial-gradient(800px 600px at 110% 10%, rgba(96,165,250,.08), transparent 60%),
+                  var(--bg);
+      line-height: 1.6;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+
+    /* NAV */
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(10px);
+      background: rgba(15, 23, 42, .75);
+      border-bottom: 1px solid rgba(148,163,184,.15);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .2px; }
+    .brand .logo { width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, var(--pill), var(--accent)); box-shadow: var(--shadow); }
+
+    .menu { display: flex; align-items: center; gap: 16px; }
+    .menu a, .menu button { color: var(--text); background: transparent; border: none; font: inherit; cursor: pointer; padding: 8px 10px; border-radius: 10px; }
+    .menu a:hover, .menu button:hover { background: rgba(148,163,184,.12); }
+
+    .dropdown { position: relative; }
+    .dropdown-menu { position: absolute; top: calc(100% + 6px); right: 0; min-width: 220px; background: var(--surface); border: 1px solid rgba(148,163,184,.2); border-radius: 12px; box-shadow: var(--shadow); display: none; overflow: hidden; }
+    .dropdown-menu a { display: block; padding: 10px 12px; }
+    .dropdown-menu a span { color: var(--muted); font-size: 12px; display: block; }
+    .dropdown.open .dropdown-menu { display: block; }
+
+    .mobile-toggle { display: none; }
+
+    /* HERO */
+    .hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; align-items: center; padding: 48px 24px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); border: 1px solid rgba(148,163,184,.15); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .pad { padding: 24px; }
+    .pill { display: inline-flex; align-items: center; gap: 8px; background: rgba(56,189,248,.15); color: #cffafe; padding: 6px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; letter-spacing: .2px; }
+    .hero h1 { margin: 12px 0 8px; font-size: clamp(28px, 4.8vw, 44px); line-height: 1.1; }
+    .muted { color: var(--muted); }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(148,163,184,.2); background: var(--soft); color: var(--text); text-decoration: none; font-weight: 600; }
+    .btn:hover { background: rgba(148,163,184,.2); }
+    .btn.primary { background: linear-gradient(135deg, var(--pill), var(--accent)); border: none; color: #082f49; }
+
+    /* SECTIONS */
+    section { margin: 28px 0; }
+    h2 { font-size: 22px; margin: 0 0 12px; }
+    .grid { display: grid; gap: 14px; }
+
+    .item { padding: 16px; border: 1px solid rgba(148,163,184,.15); border-radius: 14px; background: rgba(2,6,23,.45); }
+    .item h3 { margin: 0 0 6px; font-size: 18px; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(148,163,184,.25); color: var(--muted); font-size: 12px; margin-right: 6px; }
+
+    /* FOOTER */
+    footer { margin: 36px 0 16px; text-align: center; color: var(--muted); font-size: 14px; }
+
+    /* LAYOUT */
+    .hidden { display: none !important; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 720px) {
+      .menu { display: none; }
+      .mobile-toggle { display: inline-flex; }
+      .mobile-panel { display: none; position: absolute; top: 60px; left: 0; right: 0; background: var(--surface); border-bottom: 1px solid rgba(148,163,184,.2); padding: 12px; }
+      .mobile-panel a, .mobile-panel button { display: block; width: 100%; text-align: left; padding: 10px 12px; border-radius: 10px; }
+      .mobile-panel a:hover, .mobile-panel button:hover { background: rgba(148,163,184,.12); }
+      .mobile-panel .sub a { padding-left: 22px; font-size: 14px; }
+    }
+
+    /* Print-friendly resume view */
+    @media print {
+      nav, .mobile-panel, .hero-actions, .dropdown, .controls { display: none !important; }
+      body { background: #fff; color: #111; }
+      .card { border: none; box-shadow: none; }
+      a { color: #111; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="brand"><div class="logo" aria-hidden="true"></div> <span>Jonathan Crandall</span></div>
+
+      <div class="menu" role="menubar" aria-label="Primary">
+        <a href="#home" data-link role="menuitem">Home</a>
+        <div class="dropdown" id="docsDropdown">
+          <button aria-haspopup="true" aria-expanded="false" role="menuitem">Docs ▾</button>
+          <div class="dropdown-menu" role="menu" aria-label="Documents">
+            <a href="#cv" data-link role="menuitem">Curriculum Vitae <span>Detailed academic + work history</span></a>
+            <a href="#resume" data-link role="menuitem">Resume <span>1-page professional summary</span></a>
+            <a href="#cpd" data-link role="menuitem">CPD Log <span>Continuing Professional Development</span></a>
+          </div>
+        </div>
+        <a href="#projects" data-link role="menuitem">Projects</a>
+        <a href="#contact" data-link role="menuitem">Contact</a>
+      </div>
+
+      <button class="mobile-toggle btn" id="mobileBtn" aria-label="Open menu">☰</button>
+    </div>
+
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="#home" data-link>Home</a>
+      <button class="btn" id="mobileDocsBtn">Docs ▾</button>
+      <div class="sub hidden" id="mobileSub">
+        <a href="#cv" data-link>Curriculum Vitae</a>
+        <a href="#resume" data-link>Resume</a>
+        <a href="#cpd" data-link>CPD Log</a>
+      </div>
+      <a href="#projects" data-link>Projects</a>
+      <a href="#contact" data-link>Contact</a>
+    </div>
+  </nav>
+
+  <!-- CONTENT WRAPPER -->
+  <main class="container">
+    <!-- HOME / HERO -->
+    <section id="home" class="hero card">
+      <div class="pad">
+        <span class="pill">Biomedical Science • Pharmacy Informatics</span>
+        <h1>Hi, I’m Jonathan — I optimize pharmacy workflows & systems.</h1>
+        <p class="muted">Pharmacy Intern • leader • Creator • patient first</p>
+         <p class="muted">I seek ways to bridge biomedical science with technology; turning data into actionable systems that improve care and streamline pharmacy practice.</p>
+        <div class="row hero-actions">
+          <a class="btn primary" href="#resume" data-link>View Resume</a>
+          <a class="btn" href="#projects" data-link>See Projects</a>
+          <a class="btn" href="#contact" data-link>Contact</a>
+        </div>
+      </div>
+      <div class="pad">
+        <div class="card pad">
+          <h2>Quick Stats</h2>
+          <div class="grid" style="grid-template-columns: repeat(2, minmax(0,1fr));">
+            <div class="item"><strong>Pharm Tech</strong><br><span class="muted">Retail and systems interest</span></div>
+            <div class="item"><strong>Focus</strong><br><span class="muted">Telepharmacy innovation automation</span></div>
+            <div class="item"><strong>Strength</strong><br><span class="muted">Systems & documentation</span></div>
+            <div class="item"><strong>Location</strong><br><span class="muted">Glendora, CA</span></div>
+          </div>
+         <div class="row" style="margin-top:12px;">
+            <span class="tag">Excel/SQL/basic Full-stack Development</span>
+            <span class="tag">Git · GitHub</span>
+            <span class="tag">HTML/CSS/JS</span>
+            <span class="tag">ProPresenter</span>
+            <span class="tag">event coordination</span>
+         </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CV SECTION -->
+    <section id="cv" class="card pad hidden" aria-labelledby="cv-title">
+      <h2 id="cv-title">Curriculum Vitae — Jonathan Crandall</h2>
+        <p class="muted">PharmTech focused on workflow clarity, informatics, and patient-first systems.</p>
+
+        <div class="grid">
+        <div class="item dense">
+            <h3>Education</h3>
+            <ul class="tight">
+            <li><strong>West Coast University — School of Pharmacy (Center for Graduate Studies)</strong><br>
+                PharmD Candidate • Start: August 2025 • Los Angeles, CA</li>
+            <li><strong>California Baptist University</strong> — B.S. Biomedical Sciences • Dec 2024</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Professional Experience</h3>
+            <ul class="tight">
+            <li><strong>Walgreens — Pharmacy Technician</strong> • Glendora/Monrovia, CA • 2024–Present
+                <br>Rx processing, insurance claims, patient triage, documentation improvements.</li>
+            <li><strong>Campus Events Team — Event Tech</strong> • CBU • (dates)
+                <br>Analog/digital sound boards, ProPresenter, lighting, live event ops.</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Clinical / Shadowing</h3>
+            <ul class="tight">
+            <li><strong>Children’s Hospital Los Angeles</strong> — PICU pharmacy & informatics shadowing; exposure to BCMA/EHR optimization.</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Leadership & Activities</h3>
+            <ul class="tight">
+            <li><strong>Pharmacy Club (CBU)</strong> — President (2 yrs); programming, speakers, student support.</li>
+            <li><strong>ASL Club (CBU)</strong> — Secretary (2024).</li>
+            <li><strong>Scouts</strong> — Secretary-Treasurer & Scout Leader; youth mentorship & safety.</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Certifications & Licenses</h3>
+            <ul class="tight">
+            <li><strong>CPhT (California)</strong> — License #TCH 201634 • Active</li>
+            <li><strong>CPR/BLS</strong> — Active</li>
+            <li><strong>ASHP Informatics CE</strong> — Completed (year)</li>
+            <li><em>Coming Soon:</em> California Pharmacy Intern License (upon program start)</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Skills</h3>
+            <p>Prescription processing • Data entry • Insurance processing • Inventory • Documentation • Excel/Sheets • Basic SQL • Git/GitHub • HTML/CSS/JS • HIPAA awareness • AV tech</p>
+        </div>
+
+        <div class="item dense">
+            <h3>Research / Projects</h3>
+            <ul class="tight">
+            <li><strong>Capstone:</strong> Telepharmacy Consulting for Chronic Disease Management (2024)</li>
+            <li>Small web tools + data projects; details on Projects page</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="row controls" style="margin-top:10px;">
+        <a class="btn" href="assets/CV-Jonathan-Crandall.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+        <a class="btn" href="assets/CV-Jonathan-Crandall.pdf" download>Download CV (PDF)</a>
+        <a class="btn" id="printCv">Print / Save this CV</a>
+        </div>
+
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="card pad hidden" aria-labelledby="resume-title">
+      <h2 id="resume-title">Jonathan Crandall — Pharmacy Technician</h2>
+
+        <div class="item dense">
+        <h3>Summary</h3>
+        <p>Pharmacy technician moving into pharmacy school with a growing focus on informatics, workflow documentation, and patient-first operations.</p>
+        </div>
+        <div class="grid">
+        <div class="item dense">
+            <h3>Education</h3>
+            <ul class="tight">
+            <li><strong>West Coast University — School of Pharmacy (Center for Graduate Studies)</strong><br>
+                PharmD Candidate • <em>Start:</em> August 2025 • Los Angeles, CA</li>
+            <li><strong>B.S. Biomedical Sciences</strong><br>
+                California Baptist University • Dec 2024</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Credentials</h3>
+            <ul class="tight">
+            <li><strong>CPhT (California)</strong> — License #TCH 201634</li>
+            <li><strong>ASHP Certificate:</strong> Pharmacy Informatics (year: update)</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Coming Soon</h3>
+            <ul class="tight">
+            <li><strong>California Pharmacy Intern License</strong> — application planned upon program start</li>
+            </ul>
+        </div>
+
+        <div class="item dense">
+            <h3>Core Skills</h3>
+            <p>Documentation • Excel/Sheets • Basic SQL • Git/GitHub • HTML/CSS/JS • Customer service • HIPAA awareness</p>
+        </div>
+        </div>
+
+        <div class="row controls" style="margin-top:10px;">
+            <a class="btn" href="/assets/Resume-PharmTech.pdf" target="_blank">View Resume (PDF)</a>
+            <a class="btn" href="/assets/Resume-PharmTech.pdf" download>Download Resume (PDF)</a>
+        </div>
+
+    </section>
+
+    <!-- CPD SECTION -->
+    <section id="cpd" class="card pad hidden" aria-labelledby="cpd-title">
+      <h2 id="cpd-title">CPD — Continuing Professional Development</h2>
+      <p class="muted">Track learning objectives, activities, and reflections. The template below uses a simple table; you can expand it or swap to a Google Sheet embed later.</p>
+      <div class="item">
+        <table style="width:100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th style="text-align:left; padding:8px; border-bottom:1px solid rgba(148,163,184,.25);">Date</th>
+              <th style="text-align:left; padding:8px; border-bottom:1px solid rgba(148,163,184,.25);">Topic</th>
+              <th style="text-align:left; padding:8px; border-bottom:1px solid rgba(148,163,184,.25);">Activity</th>
+              <th style="text-align:left; padding:8px; border-bottom:1px solid rgba(148,163,184,.25);">Reflection / Outcome</th>
+            </tr>
+          </thead>
+          <tbody id="cpdRows">
+            <tr>
+              <td style="padding:8px; border-bottom:1px solid rgba(148,163,184,.12);">2025‑09‑08</td>
+              <td style="padding:8px; border-bottom:1px solid rgba(148,163,184,.12);">PPM calculations</td>
+              <td style="padding:8px; border-bottom:1px solid rgba(148,163,184,.12);">Practice problems, reviewed units</td>
+              <td style="padding:8px; border-bottom:1px solid rgba(148,163,184,.12);">Accuracy improved; created quick‑ref sheet</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row" style="margin-top:10px;">
+          
+          <button class="btn" id="exportCpd">Export CPD as CSV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="card pad hidden">
+      <h2>Projects</h2>
+      <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+        <article class="item">
+          <h3>FDA Label Cross‑Reference Tool</h3>
+          <p class="muted">Small web app that queries label endpoints and surfaces warnings/interactions hints for quick study.</p>
+          <a class="btn" href="#" target="_blank" rel="noopener">View</a>
+        </article>
+
+        <article class="item">
+          <h3>Resume Website (this site)</h3>
+          <p class="muted">Built with vanilla HTML/CSS/JS, deployed via GitHub Pages. Includes CV, CPD log, and print‑to‑PDF.</p>
+          <a class="btn" href="#home" data-link>Details</a>
+        </article>
+
+        <article class="item">
+        <h3>Telepharmacy Consulting: Applications & Advancements in Chronic Disease Management</h3>
+        <p class="muted">Capstone research (2024) proposing a practical framework for chronic care via telepharmacy—triage, adherence support, MTM automation, and outcomes tracking across state rules.</p>
+
+        <div class="row" style="margin:8px 0;">
+            <span class="tag">Telepharmacy</span>
+            <span class="tag">Chronic Disease</span>
+            <span class="tag">Informatics</span>
+            <span class="tag">MTM</span>
+        </div>
+                <div id="capstoneAbstract" class="muted hidden" style="margin-top:10px;">
+            <strong>Abstract.</strong> This paper surveys telepharmacy regulations, synthesizes patient-outcome literature for chronic conditions (e.g., hypertension, diabetes), and outlines a four-part operating model: (1) remote triage/intake, (2) adherence monitoring & just-in-time counseling, (3) MTM task automation & documentation, and (4) data feedback loops for QI. Findings highlight improved adherence and access, with variability driven by state rules and reimbursement mechanisms.
+        </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="card pad hidden">
+      <h2>Contact</h2>
+        <p class="muted">For internet-related privacy concerns, please use the contact details listed in my resume or CV.</p>
+
+        <div class="row">
+        <a class="btn" href="assets/Resume-PharmTech.pdf" target="_blank" rel="noopener">View Resume (PDF)</a>
+        <a class="btn" href="assets/CV-Jonathan-Crandall.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+        <a class="btn" href="https://www.linkedin.com/in/jonathan-c" target="_blank" rel="noopener">Message on LinkedIn</a>
+        </div>
+
+    </section>
+
+    <!-- end main hero-->
+    <footer>
+      <p>© <span id="year"></span> Jonathan Crandall • Built with HTML, CSS & JS • </p>
+    </footer>
+  </main>
+
+  <script>
+    // ========= Utility: simple router (hash-based) =========
+    const sections = ["home","cv","resume","cpd","projects","contact"]; 
+    function showSection(id){
+      sections.forEach(s => {
+        const el = document.getElementById(s);
+        if(!el) return;
+        el.classList.toggle('hidden', s !== id);
+      });
+      // close dropdowns/mobile when navigating
+      dropdown.classList.remove('open');
+      mobilePanel.style.display = 'none';
+      mobileSub.classList.add('hidden');
+    }
+
+    // Handle internal nav links
+    document.querySelectorAll('[data-link]').forEach(a => {
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        if(href && href.startsWith('#')){
+          e.preventDefault();
+          const id = href.replace('#','');
+          if(sections.includes(id)){
+            history.pushState({}, '', `#${id}`);
+            showSection(id);
+          }
+        }
+      });
+    });
+
+    // On load: route from hash or default to home
+    window.addEventListener('DOMContentLoaded', () => {
+      const initial = location.hash?.replace('#','');
+      showSection(sections.includes(initial) ? initial : 'home');
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+
+    // ========= Dropdown (desktop) =========
+    const dropdown = document.getElementById('docsDropdown');
+    dropdown.querySelector('button').addEventListener('click', () => {
+      const open = dropdown.classList.toggle('open');
+      dropdown.querySelector('button').setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    // click outside to close
+    document.addEventListener('click', (e) => {
+      if(!dropdown.contains(e.target)) dropdown.classList.remove('open');
+    });
+
+    // ========= Mobile menu =========
+    const mobileBtn = document.getElementById('mobileBtn');
+    const mobilePanel = document.getElementById('mobilePanel');
+    const mobileDocsBtn = document.getElementById('mobileDocsBtn');
+    const mobileSub = document.getElementById('mobileSub');
+
+    mobileBtn.addEventListener('click', () => {
+      mobilePanel.style.display = mobilePanel.style.display === 'block' ? 'none' : 'block';
+    });
+    mobileDocsBtn.addEventListener('click', () => {
+      mobileSub.classList.toggle('hidden');
+    });
+
+    // ========= CPD: add & export =========
+    const cpdRows = document.getElementById('cpdRows');
+    document.getElementById('addCpd').addEventListener('click', () => {
+      const now = new Date();
+      const d = now.toISOString().slice(0,10);
+      const tr = document.createElement('tr');
+      [d,'New topic','Activity notes','Reflection or outcome'].forEach(v => {
+        const td = document.createElement('td');
+        td.style.padding = '8px';
+        td.style.borderBottom = '1px solid rgba(148,163,184,.12)';
+        td.contentEditable = 'true';
+        td.textContent = v;
+        tr.appendChild(td);
+      });
+      cpdRows.appendChild(tr);
+    });
+
+    document.getElementById('exportCpd').addEventListener('click', () => {
+      // Build CSV from table
+      const rows = Array.from(cpdRows.querySelectorAll('tr'));
+      const header = ['Date','Topic','Activity','Reflection / Outcome'];
+      const data = [header].concat(rows.map(r => Array.from(r.children).map(td => '"' + td.textContent.replace(/"/g,'""') + '"')));
+      const csv = data.map(r => r.join(',')).join('\n');
+      const blob = new Blob([csv], {type:'text/csv'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'cpd_log.csv';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+
+    // ========= Downloads (placeholder) =========
+    document.getElementById('downloadCvBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      alert('Hook this up to a CV.pdf in your repo (e.g., /assets/CV.pdf).');
+    });
+    document.getElementById('downloadResumeBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      alert('Hook this up to a Resume.pdf in your repo (e.g., /assets/Resume.pdf).');
+    });
+
+    // ========= Zip this site (quick export) =========
+    document.getElementById('downloadSiteZip').addEventListener('click', (e) => {
+      e.preventDefault();
+      alert('To export the whole site as a zip, use your OS “Compress” feature or a GitHub release. (Client-side zipping would require an extra library.)');
+    });
+  </script>
+</body>
+</html>

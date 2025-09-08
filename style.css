@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+
+.item.dense { padding: 12px; }
+ul.tight { margin: 6px 0 0; padding-left: 18px; }
+ul.tight li { margin: 6px 0; }
+
+.item.dense { padding: 12px; }
+ul.tight { margin: 6px 0 0; padding-left: 18px; }
+ul.tight li { margin: 6px 0; }
+
+/* Print only the CV when you click Print CV */
+@media print {
+  body { background: #fff; color: #111; }
+  .nav, .mobile-panel, #home, #resume, #cpd, #projects, #contact, footer { display: none !important; }
+  #cv { display: block !important; border: none; box-shadow: none; }
+  #cv .controls { display: none !important; }
+  @page { size: Letter; margin: 0.6in; }
+  body, #cv { font-size: 11pt; line-height: 1.35; }
+  h2 { font-size: 16pt; margin-bottom: 6px; }
+  h3 { font-size: 12.5pt; }
+  .item { border: none; background: transparent; }
+}
+
+document.getElementById('capstoneAbstractBtn')?.addEventListener('click', () => {
+  const el = document.getElementById('capstoneAbstract');
+  el.classList.toggle('hidden');
+});
