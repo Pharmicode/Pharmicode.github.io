@@ -27,7 +27,5 @@ ul.tight li { margin: 6px 0; }
   .item { border: none; background: transparent; }
 }
 
-document.getElementById('capstoneAbstractBtn')?.addEventListener('click', () => {
-  const el = document.getElementById('capstoneAbstract');
-  el.classList.toggle('hidden');
-});
+
+
