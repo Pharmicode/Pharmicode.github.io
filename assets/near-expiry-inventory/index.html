@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Near-expiry inventory | Pharmicode</title>
+  <link rel="stylesheet" href="../pharmacy-analytics/demo.css">
+  <link rel="stylesheet" href="inventory.css">
+  <script type="module" src="demo.mjs"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <a href="../../index.html#projects">Pharmicode projects</a>
+      <p class="label">Synthetic pharmacy inventory</p>
+      <h1>Near-expiry inventory</h1>
+      <p>Find lots that need review and estimate the inventory value at recorded unit cost.</p>
+      <a class="download" href="near-expiry-inventory.xlsx" download>Download Excel workbook</a>
+    </header>
+    <section aria-labelledby="summary-title">
+      <h2 id="summary-title">Expiration summary</h2>
+      <label for="as-of">As-of date</label>
+      <input id="as-of" type="date" required>
+      <p id="headline" role="status"></p>
+      <div class="table-container"><table id="summary">
+        <thead><tr><th scope="col">Expiration window</th><th scope="col">Lot rows</th><th scope="col">Units</th><th scope="col">Cost value</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+    <section aria-labelledby="queue-title">
+      <h2 id="queue-title">Inventory review list</h2>
+      <p>Input exceptions appear first, followed by the earliest expiration dates.</p>
+      <div class="controls">
+        <div><label for="window">Show</label><select id="window">
+          <option value="queue">Review queue</option><option value="all">All inventory</option>
+        </select></div>
+        <div><label for="search">Find stock</label><input id="search" type="search" placeholder="Product, lot, or location"></div>
+      </div>
+      <p id="result-count" role="status"></p>
+      <div class="table-container"><table id="queue">
+        <thead><tr><th scope="col">Product and lot</th><th scope="col">Location</th><th scope="col">Expiration</th><th scope="col">Status</th><th scope="col">Units</th><th scope="col">Cost value</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+    <footer>
+      <a href="https://github.com/Pharmicode/healthcare-analytics-portfolio-ai/tree/8789b3cb798697db5596809d623c62f13abed550/near-expiry-inventory">Source and workbook instructions</a>
+    </footer>
+  </main>
+</body>
+</html>

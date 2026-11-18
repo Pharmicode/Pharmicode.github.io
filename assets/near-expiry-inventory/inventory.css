@@ -1,0 +1,6 @@
+section { margin-top: 1.25rem; }
+.download { display: inline-block; padding: .55rem .9rem; border-radius: .3rem; background: #16455f; color: white; font-weight: 650; }
+.controls { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
+#headline { font-weight: 650; }
+th:last-child, td:last-child { text-align: right; white-space: nowrap; }
+.attention { color: #83381f; font-weight: 650; }
