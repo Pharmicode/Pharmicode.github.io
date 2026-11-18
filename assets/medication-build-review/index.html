@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medication build change review | Pharmicode</title>
+  <link rel="stylesheet" href="workbench.css">
+  <script type="module" src="workbench.mjs"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <a href="../../index.html#projects">Pharmicode projects</a>
+      <p class="eyebrow">Inpatient pharmacy · Synthetic training lab</p>
+      <h1>Medication build change review</h1>
+      <p>A fictional hospital is replacing a stocked medication package. Trace the downstream changes, fix the test failures, and record a simulated release decision.</p>
+      <details><summary>Guided exercise</summary>
+        <ol>
+          <li>Run checks to see which records would prevent release.</li>
+          <li>For CAB-41, change the package to PKG-200 and pack size to 24. For CHG-09, change the transaction unit to EA.</li>
+          <li>Rerun checks, record a review for each row, then sign off and download the evidence.</li>
+        </ol>
+      </details>
+    </header>
+    <section aria-labelledby="impact-title">
+      <div class="heading">
+        <div><h2 id="impact-title">Change impact</h2><p>Target for MED-DEMO is PKG-200, transaction unit EA, and 24 units per pack.</p></div>
+        <button id="run" type="button">Run checks</button>
+      </div>
+      <p id="readiness" class="status" role="status"></p>
+      <p id="storage-note" class="muted"></p>
+      <div class="scroll"><table>
+        <thead><tr><th scope="col">Record</th><th scope="col">Baseline</th><th scope="col">Candidate</th><th scope="col">Check result</th><th scope="col">Review</th><th scope="col">Action</th></tr></thead>
+        <tbody id="records"></tbody>
+      </table></div>
+      <div id="evidence"></div>
+    </section>
+    <section aria-labelledby="release-title">
+      <h2 id="release-title">Release evidence</h2>
+      <form id="release-form">
+        <label for="lead">Simulated release lead</label>
+        <input id="lead" required maxlength="80" placeholder="Demo release lead">
+        <button id="sign" type="submit">Record sign-off</button>
+      </form>
+      <p id="signed"></p>
+      <div class="actions">
+        <button id="print" type="button" class="secondary">Print release summary</button>
+        <button id="download" type="button" class="secondary">Download evidence JSON</button>
+        <button id="reset" type="button" class="secondary">Reset exercise</button>
+      </div>
+      <p>Use fictional reviewer names. This browser stores the exercise locally. The simulator does not connect to a hospital system.</p>
+      <details><summary>Change history</summary><ol id="history"></ol></details>
+    </section>
+    <section id="print-summary" aria-label="Printable release summary"></section>
+    <footer><a href="https://github.com/Pharmicode/healthcare-analytics-portfolio-ai/tree/9c503a2e538dbd7a3525bae00b9fc20086995c0d/medication-build-review">Source, test cases, and vendor sandbox notes</a></footer>
+  </main>
+  <dialog id="editor">
+    <form id="editor-form">
+      <h2 id="edit-title">Edit candidate</h2>
+      <label for="package">Package code</label><input id="package" required maxlength="40">
+      <label for="unit">Transaction unit</label><select id="unit"><option>EA</option><option>BOX</option></select>
+      <label for="pack">Units per pack</label><input id="pack" type="number" required min="1" step="1">
+      <p id="edit-error" role="alert"></p>
+      <div class="actions"><button type="submit">Save revision</button><button type="button" data-close class="secondary">Cancel</button></div>
+    </form>
+  </dialog>
+  <dialog id="reviewer">
+    <form id="review-form">
+      <h2 id="review-title">Record review</h2>
+      <label for="review-name">Simulated reviewer</label><input id="review-name" required maxlength="80">
+      <label for="note">What did you verify?</label><textarea id="note" required maxlength="300" rows="3"></textarea>
+      <p id="review-error" role="alert"></p>
+      <div class="actions"><button type="submit">Save review</button><button type="button" data-close class="secondary">Cancel</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

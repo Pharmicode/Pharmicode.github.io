@@ -1,0 +1,41 @@
+:root { font: 16px/1.5 system-ui,sans-serif; color: #183248; background: #eef3f7; }
+body { margin: 0; }
+main { max-width: 72rem; margin: auto; padding: clamp(1rem, 4vw, 3.5rem); overflow-wrap: anywhere; }
+header { border-bottom: 1px solid #afc0cd; padding-bottom: 1.3rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.04; margin: .35em 0; max-width: 19ch; }
+h2 { margin: 0; }
+header > p { max-width: 61ch; }
+.eyebrow { text-transform: uppercase; font-size: .8rem; font-weight: 750; letter-spacing: .08em; margin-top: 1.7rem; }
+a { color: #075787; text-underline-offset: .15em; }
+section { background: white; border: 1px solid #c4d2dd; border-radius: .6rem; padding: clamp(.8rem, 3vw, 1.8rem); margin-top: 1.2rem; min-width: 0; }
+.heading, .actions { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
+.heading { justify-content: space-between; }
+.heading p { margin: .45em 0; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: .6rem .7rem; border-bottom: 1px solid #d4e0e8; vertical-align: top; text-align: left; }
+th { background: #e9f0f5; }
+td small { display: block; }
+summary { cursor: pointer; font-weight: 650; }
+#evidence details { margin-top: .7rem; }
+button, input, textarea, select { font: inherit; padding: .4rem .65rem; border: 1px solid #658096; border-radius: .28rem; box-sizing: border-box; max-width: 100%; }
+button { cursor: pointer; background: #124862; color: white; font-weight: 650; }
+button:disabled { cursor: default; color: #41566a; background: #e2e9ef; }
+.secondary { color: #124862; background: #fff; }
+.status { padding: .65rem .8rem; background: #e8f2f7; font-weight: 700; }
+.muted { color: #435e73; font-size: .9rem; }
+.fail { color: #8b361d; font-weight: 700; }
+label { display: block; font-weight: 650; }
+#release-form { margin-top: .75rem; }
+dialog { max-width: min(28rem, calc(100% - 3rem)); color: inherit; border: 1px solid #658096; border-radius: .55rem; }
+dialog::backdrop { background: #14324a80; }
+dialog input, dialog textarea { width: 100%; margin-bottom: .5rem; }
+footer { margin-top: 1.35rem; }
+#print-summary { display: none; }
+@media print {
+  body { background: white; }
+  main { padding: 0; }
+  main > :not(#print-summary) { display: none; }
+  #print-summary { display: block; border: 0; margin: 0; padding: 0; }
+  #print-summary li { margin-bottom: .4rem; break-inside: avoid; }
+}
