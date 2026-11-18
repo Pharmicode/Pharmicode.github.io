@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pharmacy analytics | Pharmicode</title>
+  <link rel="stylesheet" href="demo.css">
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <a href="../../index.html#projects">Pharmicode projects</a>
+      <p class="label">Synthetic portfolio demonstration</p>
+      <h1 id="title">Pharmacy analytics</h1>
+      <p id="description"></p>
+    </header>
+    <nav aria-label="Analytics projects">
+      <a href="?project=claims">Claims recovery</a>
+      <a href="?project=adherence">Adherence</a>
+      <a href="?project=network">Network access</a>
+      <a href="?project=formulary">Formulary</a>
+      <a href="?project=reconciliation">FHIR reconciliation</a>
+    </nav>
+    <section aria-labelledby="results">
+      <h2 id="results">Results</h2>
+      <div id="map-panel" hidden>
+        <label for="scenario">Network scenario</label>
+        <select id="scenario"></select>
+        <div id="map" role="img"></div>
+        <p>Grid labels show modeled minutes to the nearest eligible pharmacy. Blue cells are within 12 minutes.</p>
+      </div>
+      <label for="filter">Filter results</label>
+      <input type="search" id="filter" placeholder="Search table">
+      <p id="summary" role="status"></p>
+      <div class="table-container"><table><thead></thead><tbody></tbody></table></div>
+    </section>
+    <footer>
+      <a id="download" download hidden>Download synthetic source data</a>
+      <a href="https://github.com/Pharmicode/healthcare-analytics-portfolio-ai/tree/4635d1e85eebfe58eb0bb672f29c1fa10806d9e0/pharmacy-analytics-round-2">Source and methodology</a>
+    </footer>
+  </main>
+</body>
+</html>

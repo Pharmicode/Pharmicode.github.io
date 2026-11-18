@@ -1,0 +1,9362 @@
+{
+  "attempts": [
+    [
+      1,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      1,
+      11,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      1,
+      49,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      2,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      2,
+      25,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      2,
+      34,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      3,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      3,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      3,
+      110,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      4,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      4,
+      23,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      4,
+      138,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      5,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      6,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      6,
+      22,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      6,
+      30,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      7,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      7,
+      18,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      8,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      8,
+      12,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      8,
+      31,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      9,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      9,
+      9,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      9,
+      121,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      10,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      11,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      11,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      11,
+      66,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      11,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      12,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      12,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      12,
+      89,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      13,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      13,
+      16,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      13,
+      139,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      14,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      14,
+      2,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      15,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      16,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      16,
+      27,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      16,
+      173,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      17,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      17,
+      20,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      17,
+      69,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      18,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      18,
+      28,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      18,
+      126,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      19,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      19,
+      2,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      19,
+      46,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      20,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      21,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      21,
+      20,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      22,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      22,
+      21,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      22,
+      69,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      22,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      23,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      23,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      23,
+      99,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      24,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      24,
+      26,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      24,
+      58,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      25,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      26,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      26,
+      27,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      26,
+      141,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      27,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      27,
+      29,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      27,
+      67,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      28,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      28,
+      3,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      29,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      29,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      29,
+      149,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      30,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      31,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      31,
+      9,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      31,
+      130,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      32,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      32,
+      17,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      32,
+      78,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      33,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      33,
+      12,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      33,
+      40,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      33,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      34,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      34,
+      16,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      34,
+      97,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      35,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      36,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      36,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      36,
+      80,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      37,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      37,
+      26,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      37,
+      145,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      38,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      38,
+      1,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      38,
+      170,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      39,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      39,
+      16,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      39,
+      44,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      40,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      41,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      41,
+      6,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      41,
+      145,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      42,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      42,
+      11,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      43,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      43,
+      10,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      43,
+      98,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      44,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      44,
+      12,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      44,
+      137,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      44,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      45,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      46,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      46,
+      19,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      46,
+      174,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      47,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      47,
+      7,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      47,
+      119,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      48,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      48,
+      8,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      48,
+      65,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      49,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      49,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      50,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      51,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      51,
+      27,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      51,
+      151,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      52,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      52,
+      27,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      52,
+      67,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      53,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      53,
+      18,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      53,
+      73,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      54,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      54,
+      9,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      54,
+      95,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      55,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      55,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      56,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      56,
+      26,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      57,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      57,
+      25,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      57,
+      168,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      58,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      58,
+      22,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      58,
+      35,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      59,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      59,
+      25,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      59,
+      150,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      60,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      61,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      61,
+      29,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      61,
+      143,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      62,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      62,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      62,
+      89,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      63,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      63,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      64,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      64,
+      20,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      64,
+      161,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      65,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      66,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      66,
+      18,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      66,
+      92,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      66,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      67,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      67,
+      16,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      67,
+      103,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      68,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      68,
+      6,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      68,
+      105,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      69,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      69,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      69,
+      172,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      70,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      71,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      71,
+      4,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      71,
+      113,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      72,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      72,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      72,
+      126,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      73,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      73,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      73,
+      131,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      74,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      74,
+      21,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      74,
+      60,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      75,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      76,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      76,
+      3,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      76,
+      73,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      77,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      77,
+      3,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      78,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      78,
+      16,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      78,
+      127,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      79,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      79,
+      3,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      79,
+      30,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      80,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      81,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      81,
+      2,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      81,
+      51,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      82,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      82,
+      1,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      82,
+      38,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      83,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      83,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      83,
+      46,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      84,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      84,
+      5,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      85,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      86,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      86,
+      3,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      86,
+      174,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      87,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      87,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      87,
+      67,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      88,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      88,
+      5,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      88,
+      121,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      88,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      89,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      89,
+      15,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      89,
+      48,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      90,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      91,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      91,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      92,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      92,
+      23,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      92,
+      50,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      93,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      93,
+      2,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      93,
+      149,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      94,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      94,
+      9,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      94,
+      36,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      95,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      96,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      96,
+      25,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      96,
+      60,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      97,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      97,
+      15,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      97,
+      162,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      98,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      98,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      99,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      99,
+      3,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      99,
+      77,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      99,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      100,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      101,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      101,
+      29,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      101,
+      135,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      102,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      102,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      102,
+      49,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      103,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      103,
+      4,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      103,
+      31,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      104,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      104,
+      10,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      104,
+      71,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      105,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      106,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      106,
+      17,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      106,
+      160,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      107,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      107,
+      10,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      107,
+      168,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      108,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      108,
+      22,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      108,
+      153,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      109,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      109,
+      14,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      109,
+      102,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      110,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      110,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      111,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      111,
+      27,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      111,
+      108,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      112,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      112,
+      23,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      113,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      113,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      113,
+      101,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      114,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      114,
+      4,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      114,
+      81,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      115,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      116,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      116,
+      8,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      116,
+      153,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      117,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      117,
+      1,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      117,
+      64,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      118,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      118,
+      20,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      118,
+      161,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      119,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      119,
+      18,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      120,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      121,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      121,
+      7,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      121,
+      152,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      121,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      122,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      122,
+      19,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      122,
+      100,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      123,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      123,
+      15,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      123,
+      144,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      124,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      124,
+      19,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      124,
+      76,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      125,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      126,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      126,
+      11,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      127,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      127,
+      25,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      127,
+      178,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      128,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      128,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      128,
+      119,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      129,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      129,
+      27,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      129,
+      80,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      130,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      131,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      131,
+      21,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      131,
+      91,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      132,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      132,
+      28,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      132,
+      81,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      132,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      133,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      133,
+      10,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      134,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      134,
+      29,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      134,
+      69,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      135,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      136,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      136,
+      12,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      136,
+      156,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      137,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      137,
+      27,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      137,
+      143,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      138,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      138,
+      1,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      138,
+      109,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      139,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      139,
+      12,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      139,
+      148,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      140,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      141,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      141,
+      3,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      141,
+      47,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      142,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      142,
+      14,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      142,
+      44,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      143,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      143,
+      2,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      143,
+      165,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      143,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      144,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      144,
+      26,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      144,
+      35,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      145,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      146,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      146,
+      10,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      146,
+      58,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      147,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      147,
+      5,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      148,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      148,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      148,
+      166,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      149,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      149,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      149,
+      125,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      150,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      151,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      151,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      151,
+      51,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      152,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      152,
+      23,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      152,
+      50,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      153,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      153,
+      9,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      153,
+      164,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      154,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      154,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      155,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      156,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      156,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      156,
+      139,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      157,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      157,
+      28,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      157,
+      112,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      158,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      158,
+      14,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      158,
+      160,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      159,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      159,
+      6,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      159,
+      75,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      160,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      161,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      161,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      162,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      162,
+      26,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      162,
+      37,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      163,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      163,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      163,
+      101,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      164,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      164,
+      4,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      164,
+      100,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      165,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      165,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      166,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      166,
+      5,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      166,
+      164,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      167,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      167,
+      1,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      167,
+      99,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      168,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      168,
+      20,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      169,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      169,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      169,
+      107,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      170,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      171,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      171,
+      14,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      171,
+      76,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      172,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      172,
+      15,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      172,
+      113,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      173,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      173,
+      2,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      173,
+      35,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      174,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      174,
+      17,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      174,
+      161,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      175,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      176,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      176,
+      26,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      176,
+      39,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      176,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      177,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      177,
+      25,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      177,
+      165,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      178,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      178,
+      25,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      178,
+      179,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      179,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      179,
+      4,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      179,
+      109,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      180,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      181,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      181,
+      29,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      181,
+      104,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      182,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      182,
+      20,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      183,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      183,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      183,
+      158,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      184,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      184,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      184,
+      51,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      185,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      186,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      186,
+      10,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      186,
+      130,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      187,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      187,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      187,
+      178,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      187,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      188,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      188,
+      9,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      188,
+      77,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      189,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      189,
+      2,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      190,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      191,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      191,
+      20,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      191,
+      93,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      192,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      192,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      192,
+      52,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      193,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      193,
+      26,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      193,
+      44,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      194,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      194,
+      6,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      194,
+      83,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      195,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      196,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      196,
+      16,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      197,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      197,
+      26,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      197,
+      108,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      198,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      198,
+      5,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      198,
+      114,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      198,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      199,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      199,
+      7,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      199,
+      75,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      200,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      201,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      201,
+      1,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      201,
+      92,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      202,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      202,
+      24,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      202,
+      162,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      203,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      203,
+      13,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      204,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      204,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      204,
+      156,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      205,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      206,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      206,
+      27,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      206,
+      79,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      207,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      207,
+      16,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      207,
+      106,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      208,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      208,
+      14,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      208,
+      155,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      209,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      209,
+      23,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      209,
+      149,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      209,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      210,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      211,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      211,
+      8,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      211,
+      138,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      212,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      212,
+      17,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      212,
+      136,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      213,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      213,
+      27,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      213,
+      135,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      214,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      214,
+      2,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      214,
+      65,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      215,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      216,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      216,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      216,
+      109,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      217,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      217,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      218,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      218,
+      21,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      218,
+      55,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      219,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      219,
+      21,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      219,
+      123,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      220,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      220,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      221,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      221,
+      4,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      221,
+      156,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      222,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      222,
+      22,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      222,
+      67,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      223,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      223,
+      18,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      223,
+      42,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      224,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      224,
+      19,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      225,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      226,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      226,
+      11,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      226,
+      160,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      227,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      227,
+      1,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      227,
+      140,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      228,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      228,
+      2,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      228,
+      123,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      229,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      229,
+      7,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      229,
+      56,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      230,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      231,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      231,
+      2,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      232,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      232,
+      11,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      232,
+      161,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      233,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      233,
+      9,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      233,
+      122,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      234,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      234,
+      15,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      234,
+      119,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      235,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      236,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      236,
+      26,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      236,
+      122,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      237,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      237,
+      22,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      237,
+      63,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      238,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      238,
+      25,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      239,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      239,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      239,
+      170,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      240,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      241,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      241,
+      5,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      241,
+      58,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      242,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      242,
+      4,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      242,
+      145,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      242,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      243,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      243,
+      23,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      243,
+      148,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      244,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      244,
+      16,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      244,
+      138,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      245,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      246,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      246,
+      14,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      246,
+      123,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      247,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      247,
+      1,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      247,
+      137,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      248,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      248,
+      23,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      248,
+      147,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      249,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      249,
+      4,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      249,
+      133,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      250,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      251,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      251,
+      22,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      251,
+      69,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      252,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      252,
+      28,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      253,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      253,
+      1,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      253,
+      87,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      253,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      254,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      254,
+      5,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      254,
+      120,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      255,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      256,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      256,
+      23,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      256,
+      148,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      257,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      257,
+      6,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      257,
+      175,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      258,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      258,
+      1,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      258,
+      109,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      259,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      259,
+      10,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      260,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      261,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      261,
+      26,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      261,
+      94,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      262,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      262,
+      9,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      262,
+      83,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      263,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      263,
+      5,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      263,
+      75,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      264,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      264,
+      11,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      264,
+      167,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      264,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      265,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      266,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      266,
+      25,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      267,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      267,
+      24,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      267,
+      126,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      268,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      268,
+      11,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      268,
+      76,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      269,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      269,
+      18,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      269,
+      139,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      270,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      271,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      271,
+      8,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      271,
+      62,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      272,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      272,
+      3,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      272,
+      170,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      273,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      273,
+      12,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      274,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      274,
+      9,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      274,
+      106,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      275,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      275,
+      200,
+      "Data entry",
+      "Reversed"
+    ],
+    [
+      276,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      276,
+      14,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      276,
+      170,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      277,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      277,
+      23,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      277,
+      86,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      278,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      278,
+      18,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      278,
+      145,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      279,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      279,
+      29,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      279,
+      38,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      280,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      281,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      281,
+      29,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      281,
+      171,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      282,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      282,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      282,
+      70,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      283,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      283,
+      19,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      283,
+      156,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      284,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      284,
+      28,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      284,
+      34,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      285,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      286,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      286,
+      12,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      286,
+      116,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      286,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      287,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      287,
+      10,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      288,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      288,
+      12,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      288,
+      57,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      289,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      289,
+      9,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      289,
+      156,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      290,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      291,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      291,
+      5,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      291,
+      33,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      292,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      292,
+      1,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      292,
+      97,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      293,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      293,
+      4,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      293,
+      164,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      294,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      294,
+      20,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      295,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      296,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      296,
+      27,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      296,
+      35,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      297,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      297,
+      16,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      297,
+      173,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      297,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      298,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      298,
+      25,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      298,
+      75,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      299,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      299,
+      11,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      299,
+      144,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      300,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      301,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      301,
+      9,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      302,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      302,
+      19,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      302,
+      55,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      303,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      303,
+      7,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      303,
+      179,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      304,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      304,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      304,
+      99,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      305,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      306,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      306,
+      27,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      306,
+      41,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      307,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      307,
+      5,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      307,
+      122,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      308,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      308,
+      24,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      309,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      309,
+      24,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      309,
+      50,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      310,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      311,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      311,
+      10,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      311,
+      164,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      312,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      312,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      312,
+      138,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      313,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      313,
+      17,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      313,
+      163,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      314,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      314,
+      25,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      314,
+      151,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      315,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      316,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      316,
+      19,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      316,
+      177,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      317,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      317,
+      1,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      317,
+      55,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      318,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      318,
+      3,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      318,
+      124,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      319,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      319,
+      20,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      319,
+      96,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      319,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      320,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      321,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      321,
+      17,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      321,
+      122,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      322,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      322,
+      3,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      323,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      323,
+      26,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      323,
+      113,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      324,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      324,
+      22,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      324,
+      136,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      325,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      326,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      326,
+      2,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      326,
+      41,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      327,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      327,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      327,
+      147,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      328,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      328,
+      7,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      328,
+      152,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      329,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      329,
+      18,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      330,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      330,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      331,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      331,
+      4,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      331,
+      173,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      332,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      332,
+      28,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      332,
+      163,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      333,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      333,
+      29,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      333,
+      84,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      334,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      334,
+      25,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      334,
+      137,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      335,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      336,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      336,
+      27,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      337,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      337,
+      28,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      337,
+      92,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      338,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      338,
+      26,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      338,
+      146,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      339,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      339,
+      9,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      339,
+      65,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      340,
+      0,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      341,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      341,
+      12,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      341,
+      43,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      341,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      342,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      342,
+      23,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      342,
+      54,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      343,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      343,
+      2,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      344,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      344,
+      9,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      344,
+      121,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      345,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      346,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      346,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      346,
+      53,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      347,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      347,
+      23,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      347,
+      165,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      348,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      348,
+      12,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      348,
+      91,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      349,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      349,
+      13,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      349,
+      42,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      350,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      351,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      351,
+      5,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      351,
+      110,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      352,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      352,
+      29,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      352,
+      107,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      352,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      353,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      353,
+      6,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      353,
+      134,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      354,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      354,
+      16,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      354,
+      44,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      355,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      356,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      356,
+      14,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      356,
+      42,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      357,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      357,
+      27,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      358,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      358,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      358,
+      109,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      359,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      359,
+      20,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      359,
+      153,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      360,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      361,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      361,
+      13,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      361,
+      146,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      362,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      362,
+      7,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      362,
+      83,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      363,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      363,
+      14,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      363,
+      177,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      363,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      364,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      364,
+      24,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      365,
+      0,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      366,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      366,
+      9,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      366,
+      79,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      367,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      367,
+      19,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      367,
+      83,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      368,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      368,
+      12,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      368,
+      72,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      369,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      369,
+      25,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      369,
+      82,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      370,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      371,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      371,
+      12,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      372,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      372,
+      17,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      372,
+      178,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      373,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      373,
+      20,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      373,
+      42,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      374,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      374,
+      29,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      374,
+      141,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      374,
+      200,
+      "Coverage review",
+      "Reversed"
+    ],
+    [
+      375,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      376,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      376,
+      18,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      376,
+      82,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      377,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      377,
+      12,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      377,
+      97,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      378,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      378,
+      19,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      379,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      379,
+      9,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      379,
+      157,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      380,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      381,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      381,
+      23,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      381,
+      75,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      382,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      382,
+      5,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      382,
+      89,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      383,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      383,
+      21,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      383,
+      41,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      384,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      384,
+      7,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      384,
+      68,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      385,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      385,
+      200,
+      "Refill too soon",
+      "Reversed"
+    ],
+    [
+      386,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      386,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      386,
+      49,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      387,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      387,
+      12,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      387,
+      61,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      388,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      388,
+      8,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      388,
+      39,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      389,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      389,
+      8,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      389,
+      168,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      390,
+      0,
+      "Refill too soon",
+      "Paid"
+    ],
+    [
+      391,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      391,
+      4,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      391,
+      154,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      392,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      392,
+      6,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      393,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      393,
+      22,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      393,
+      40,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      394,
+      0,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      394,
+      10,
+      "Data entry",
+      "Rejected"
+    ],
+    [
+      394,
+      81,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      395,
+      0,
+      "Data entry",
+      "Paid"
+    ],
+    [
+      396,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      396,
+      15,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      396,
+      109,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      396,
+      200,
+      "Eligibility",
+      "Reversed"
+    ],
+    [
+      397,
+      0,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      397,
+      14,
+      "Eligibility",
+      "Rejected"
+    ],
+    [
+      397,
+      106,
+      "Eligibility",
+      "Paid"
+    ],
+    [
+      398,
+      0,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      398,
+      11,
+      "Coverage review",
+      "Rejected"
+    ],
+    [
+      398,
+      97,
+      "Coverage review",
+      "Paid"
+    ],
+    [
+      399,
+      0,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      399,
+      8,
+      "Refill too soon",
+      "Rejected"
+    ],
+    [
+      400,
+      0,
+      "Coverage review",
+      "Paid"
+    ]
+  ],
+  "episodes": [
+    [
+      1,
+      "Refill too soon",
+      "Rejected",
+      49,
+      "Paid",
+      3
+    ],
+    [
+      2,
+      "Eligibility",
+      "Rejected",
+      34,
+      "Paid",
+      3
+    ],
+    [
+      3,
+      "Refill too soon",
+      "Rejected",
+      110,
+      "Paid",
+      3
+    ],
+    [
+      4,
+      "Data entry",
+      "Rejected",
+      138,
+      "Paid",
+      3
+    ],
+    [
+      5,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      6,
+      "Refill too soon",
+      "Rejected",
+      30,
+      "Paid",
+      3
+    ],
+    [
+      7,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      8,
+      "Eligibility",
+      "Rejected",
+      31,
+      "Paid",
+      3
+    ],
+    [
+      9,
+      "Refill too soon",
+      "Rejected",
+      121,
+      "Paid",
+      3
+    ],
+    [
+      10,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      11,
+      "Refill too soon",
+      "Rejected",
+      66,
+      "Reversed",
+      4
+    ],
+    [
+      12,
+      "Refill too soon",
+      "Rejected",
+      89,
+      "Paid",
+      3
+    ],
+    [
+      13,
+      "Eligibility",
+      "Rejected",
+      139,
+      "Paid",
+      3
+    ],
+    [
+      14,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      15,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      16,
+      "Refill too soon",
+      "Rejected",
+      173,
+      "Paid",
+      3
+    ],
+    [
+      17,
+      "Coverage review",
+      "Rejected",
+      69,
+      "Paid",
+      3
+    ],
+    [
+      18,
+      "Data entry",
+      "Rejected",
+      126,
+      "Paid",
+      3
+    ],
+    [
+      19,
+      "Coverage review",
+      "Rejected",
+      46,
+      "Paid",
+      3
+    ],
+    [
+      20,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      21,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      22,
+      "Data entry",
+      "Rejected",
+      69,
+      "Reversed",
+      4
+    ],
+    [
+      23,
+      "Data entry",
+      "Rejected",
+      99,
+      "Paid",
+      3
+    ],
+    [
+      24,
+      "Coverage review",
+      "Rejected",
+      58,
+      "Paid",
+      3
+    ],
+    [
+      25,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      26,
+      "Coverage review",
+      "Rejected",
+      141,
+      "Paid",
+      3
+    ],
+    [
+      27,
+      "Data entry",
+      "Rejected",
+      67,
+      "Paid",
+      3
+    ],
+    [
+      28,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      29,
+      "Refill too soon",
+      "Rejected",
+      149,
+      "Paid",
+      3
+    ],
+    [
+      30,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      31,
+      "Eligibility",
+      "Rejected",
+      130,
+      "Paid",
+      3
+    ],
+    [
+      32,
+      "Eligibility",
+      "Rejected",
+      78,
+      "Paid",
+      3
+    ],
+    [
+      33,
+      "Eligibility",
+      "Rejected",
+      40,
+      "Reversed",
+      4
+    ],
+    [
+      34,
+      "Eligibility",
+      "Rejected",
+      97,
+      "Paid",
+      3
+    ],
+    [
+      35,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      36,
+      "Data entry",
+      "Rejected",
+      80,
+      "Paid",
+      3
+    ],
+    [
+      37,
+      "Eligibility",
+      "Rejected",
+      145,
+      "Paid",
+      3
+    ],
+    [
+      38,
+      "Refill too soon",
+      "Rejected",
+      170,
+      "Paid",
+      3
+    ],
+    [
+      39,
+      "Eligibility",
+      "Rejected",
+      44,
+      "Paid",
+      3
+    ],
+    [
+      40,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      41,
+      "Refill too soon",
+      "Rejected",
+      145,
+      "Paid",
+      3
+    ],
+    [
+      42,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      43,
+      "Data entry",
+      "Rejected",
+      98,
+      "Paid",
+      3
+    ],
+    [
+      44,
+      "Refill too soon",
+      "Rejected",
+      137,
+      "Reversed",
+      4
+    ],
+    [
+      45,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      46,
+      "Coverage review",
+      "Rejected",
+      174,
+      "Paid",
+      3
+    ],
+    [
+      47,
+      "Data entry",
+      "Rejected",
+      119,
+      "Paid",
+      3
+    ],
+    [
+      48,
+      "Refill too soon",
+      "Rejected",
+      65,
+      "Paid",
+      3
+    ],
+    [
+      49,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      50,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      51,
+      "Data entry",
+      "Rejected",
+      151,
+      "Paid",
+      3
+    ],
+    [
+      52,
+      "Eligibility",
+      "Rejected",
+      67,
+      "Paid",
+      3
+    ],
+    [
+      53,
+      "Coverage review",
+      "Rejected",
+      73,
+      "Paid",
+      3
+    ],
+    [
+      54,
+      "Data entry",
+      "Rejected",
+      95,
+      "Paid",
+      3
+    ],
+    [
+      55,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      56,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      57,
+      "Coverage review",
+      "Rejected",
+      168,
+      "Paid",
+      3
+    ],
+    [
+      58,
+      "Coverage review",
+      "Rejected",
+      35,
+      "Paid",
+      3
+    ],
+    [
+      59,
+      "Eligibility",
+      "Rejected",
+      150,
+      "Paid",
+      3
+    ],
+    [
+      60,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      61,
+      "Refill too soon",
+      "Rejected",
+      143,
+      "Paid",
+      3
+    ],
+    [
+      62,
+      "Refill too soon",
+      "Rejected",
+      89,
+      "Paid",
+      3
+    ],
+    [
+      63,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      64,
+      "Data entry",
+      "Rejected",
+      161,
+      "Paid",
+      3
+    ],
+    [
+      65,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      66,
+      "Data entry",
+      "Rejected",
+      92,
+      "Reversed",
+      4
+    ],
+    [
+      67,
+      "Data entry",
+      "Rejected",
+      103,
+      "Paid",
+      3
+    ],
+    [
+      68,
+      "Refill too soon",
+      "Rejected",
+      105,
+      "Paid",
+      3
+    ],
+    [
+      69,
+      "Refill too soon",
+      "Rejected",
+      172,
+      "Paid",
+      3
+    ],
+    [
+      70,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      71,
+      "Coverage review",
+      "Rejected",
+      113,
+      "Paid",
+      3
+    ],
+    [
+      72,
+      "Coverage review",
+      "Rejected",
+      126,
+      "Paid",
+      3
+    ],
+    [
+      73,
+      "Eligibility",
+      "Rejected",
+      131,
+      "Paid",
+      3
+    ],
+    [
+      74,
+      "Refill too soon",
+      "Rejected",
+      60,
+      "Paid",
+      3
+    ],
+    [
+      75,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      76,
+      "Data entry",
+      "Rejected",
+      73,
+      "Paid",
+      3
+    ],
+    [
+      77,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      78,
+      "Data entry",
+      "Rejected",
+      127,
+      "Paid",
+      3
+    ],
+    [
+      79,
+      "Refill too soon",
+      "Rejected",
+      30,
+      "Paid",
+      3
+    ],
+    [
+      80,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      81,
+      "Refill too soon",
+      "Rejected",
+      51,
+      "Paid",
+      3
+    ],
+    [
+      82,
+      "Coverage review",
+      "Rejected",
+      38,
+      "Paid",
+      3
+    ],
+    [
+      83,
+      "Refill too soon",
+      "Rejected",
+      46,
+      "Paid",
+      3
+    ],
+    [
+      84,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      85,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      86,
+      "Coverage review",
+      "Rejected",
+      174,
+      "Paid",
+      3
+    ],
+    [
+      87,
+      "Data entry",
+      "Rejected",
+      67,
+      "Paid",
+      3
+    ],
+    [
+      88,
+      "Refill too soon",
+      "Rejected",
+      121,
+      "Reversed",
+      4
+    ],
+    [
+      89,
+      "Coverage review",
+      "Rejected",
+      48,
+      "Paid",
+      3
+    ],
+    [
+      90,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      91,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      92,
+      "Coverage review",
+      "Rejected",
+      50,
+      "Paid",
+      3
+    ],
+    [
+      93,
+      "Refill too soon",
+      "Rejected",
+      149,
+      "Paid",
+      3
+    ],
+    [
+      94,
+      "Coverage review",
+      "Rejected",
+      36,
+      "Paid",
+      3
+    ],
+    [
+      95,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      96,
+      "Coverage review",
+      "Rejected",
+      60,
+      "Paid",
+      3
+    ],
+    [
+      97,
+      "Eligibility",
+      "Rejected",
+      162,
+      "Paid",
+      3
+    ],
+    [
+      98,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      99,
+      "Eligibility",
+      "Rejected",
+      77,
+      "Reversed",
+      4
+    ],
+    [
+      100,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      101,
+      "Data entry",
+      "Rejected",
+      135,
+      "Paid",
+      3
+    ],
+    [
+      102,
+      "Refill too soon",
+      "Rejected",
+      49,
+      "Paid",
+      3
+    ],
+    [
+      103,
+      "Data entry",
+      "Rejected",
+      31,
+      "Paid",
+      3
+    ],
+    [
+      104,
+      "Refill too soon",
+      "Rejected",
+      71,
+      "Paid",
+      3
+    ],
+    [
+      105,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      106,
+      "Refill too soon",
+      "Rejected",
+      160,
+      "Paid",
+      3
+    ],
+    [
+      107,
+      "Refill too soon",
+      "Rejected",
+      168,
+      "Paid",
+      3
+    ],
+    [
+      108,
+      "Coverage review",
+      "Rejected",
+      153,
+      "Paid",
+      3
+    ],
+    [
+      109,
+      "Eligibility",
+      "Rejected",
+      102,
+      "Paid",
+      3
+    ],
+    [
+      110,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      111,
+      "Eligibility",
+      "Rejected",
+      108,
+      "Paid",
+      3
+    ],
+    [
+      112,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      113,
+      "Refill too soon",
+      "Rejected",
+      101,
+      "Paid",
+      3
+    ],
+    [
+      114,
+      "Eligibility",
+      "Rejected",
+      81,
+      "Paid",
+      3
+    ],
+    [
+      115,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      116,
+      "Refill too soon",
+      "Rejected",
+      153,
+      "Paid",
+      3
+    ],
+    [
+      117,
+      "Refill too soon",
+      "Rejected",
+      64,
+      "Paid",
+      3
+    ],
+    [
+      118,
+      "Eligibility",
+      "Rejected",
+      161,
+      "Paid",
+      3
+    ],
+    [
+      119,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      120,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      121,
+      "Refill too soon",
+      "Rejected",
+      152,
+      "Reversed",
+      4
+    ],
+    [
+      122,
+      "Coverage review",
+      "Rejected",
+      100,
+      "Paid",
+      3
+    ],
+    [
+      123,
+      "Coverage review",
+      "Rejected",
+      144,
+      "Paid",
+      3
+    ],
+    [
+      124,
+      "Data entry",
+      "Rejected",
+      76,
+      "Paid",
+      3
+    ],
+    [
+      125,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      126,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      127,
+      "Eligibility",
+      "Rejected",
+      178,
+      "Paid",
+      3
+    ],
+    [
+      128,
+      "Refill too soon",
+      "Rejected",
+      119,
+      "Paid",
+      3
+    ],
+    [
+      129,
+      "Coverage review",
+      "Rejected",
+      80,
+      "Paid",
+      3
+    ],
+    [
+      130,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      131,
+      "Data entry",
+      "Rejected",
+      91,
+      "Paid",
+      3
+    ],
+    [
+      132,
+      "Eligibility",
+      "Rejected",
+      81,
+      "Reversed",
+      4
+    ],
+    [
+      133,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      134,
+      "Eligibility",
+      "Rejected",
+      69,
+      "Paid",
+      3
+    ],
+    [
+      135,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      136,
+      "Data entry",
+      "Rejected",
+      156,
+      "Paid",
+      3
+    ],
+    [
+      137,
+      "Coverage review",
+      "Rejected",
+      143,
+      "Paid",
+      3
+    ],
+    [
+      138,
+      "Data entry",
+      "Rejected",
+      109,
+      "Paid",
+      3
+    ],
+    [
+      139,
+      "Coverage review",
+      "Rejected",
+      148,
+      "Paid",
+      3
+    ],
+    [
+      140,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      141,
+      "Coverage review",
+      "Rejected",
+      47,
+      "Paid",
+      3
+    ],
+    [
+      142,
+      "Eligibility",
+      "Rejected",
+      44,
+      "Paid",
+      3
+    ],
+    [
+      143,
+      "Coverage review",
+      "Rejected",
+      165,
+      "Reversed",
+      4
+    ],
+    [
+      144,
+      "Coverage review",
+      "Rejected",
+      35,
+      "Paid",
+      3
+    ],
+    [
+      145,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      146,
+      "Eligibility",
+      "Rejected",
+      58,
+      "Paid",
+      3
+    ],
+    [
+      147,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      148,
+      "Eligibility",
+      "Rejected",
+      166,
+      "Paid",
+      3
+    ],
+    [
+      149,
+      "Eligibility",
+      "Rejected",
+      125,
+      "Paid",
+      3
+    ],
+    [
+      150,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      151,
+      "Coverage review",
+      "Rejected",
+      51,
+      "Paid",
+      3
+    ],
+    [
+      152,
+      "Refill too soon",
+      "Rejected",
+      50,
+      "Paid",
+      3
+    ],
+    [
+      153,
+      "Data entry",
+      "Rejected",
+      164,
+      "Paid",
+      3
+    ],
+    [
+      154,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      155,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      156,
+      "Refill too soon",
+      "Rejected",
+      139,
+      "Paid",
+      3
+    ],
+    [
+      157,
+      "Coverage review",
+      "Rejected",
+      112,
+      "Paid",
+      3
+    ],
+    [
+      158,
+      "Data entry",
+      "Rejected",
+      160,
+      "Paid",
+      3
+    ],
+    [
+      159,
+      "Refill too soon",
+      "Rejected",
+      75,
+      "Paid",
+      3
+    ],
+    [
+      160,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      161,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      162,
+      "Data entry",
+      "Rejected",
+      37,
+      "Paid",
+      3
+    ],
+    [
+      163,
+      "Coverage review",
+      "Rejected",
+      101,
+      "Paid",
+      3
+    ],
+    [
+      164,
+      "Coverage review",
+      "Rejected",
+      100,
+      "Paid",
+      3
+    ],
+    [
+      165,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      166,
+      "Refill too soon",
+      "Rejected",
+      164,
+      "Paid",
+      3
+    ],
+    [
+      167,
+      "Data entry",
+      "Rejected",
+      99,
+      "Paid",
+      3
+    ],
+    [
+      168,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      169,
+      "Refill too soon",
+      "Rejected",
+      107,
+      "Paid",
+      3
+    ],
+    [
+      170,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      171,
+      "Eligibility",
+      "Rejected",
+      76,
+      "Paid",
+      3
+    ],
+    [
+      172,
+      "Data entry",
+      "Rejected",
+      113,
+      "Paid",
+      3
+    ],
+    [
+      173,
+      "Refill too soon",
+      "Rejected",
+      35,
+      "Paid",
+      3
+    ],
+    [
+      174,
+      "Coverage review",
+      "Rejected",
+      161,
+      "Paid",
+      3
+    ],
+    [
+      175,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      176,
+      "Refill too soon",
+      "Rejected",
+      39,
+      "Reversed",
+      4
+    ],
+    [
+      177,
+      "Data entry",
+      "Rejected",
+      165,
+      "Paid",
+      3
+    ],
+    [
+      178,
+      "Coverage review",
+      "Rejected",
+      179,
+      "Paid",
+      3
+    ],
+    [
+      179,
+      "Eligibility",
+      "Rejected",
+      109,
+      "Paid",
+      3
+    ],
+    [
+      180,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      181,
+      "Data entry",
+      "Rejected",
+      104,
+      "Paid",
+      3
+    ],
+    [
+      182,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      183,
+      "Refill too soon",
+      "Rejected",
+      158,
+      "Paid",
+      3
+    ],
+    [
+      184,
+      "Data entry",
+      "Rejected",
+      51,
+      "Paid",
+      3
+    ],
+    [
+      185,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      186,
+      "Coverage review",
+      "Rejected",
+      130,
+      "Paid",
+      3
+    ],
+    [
+      187,
+      "Data entry",
+      "Rejected",
+      178,
+      "Reversed",
+      4
+    ],
+    [
+      188,
+      "Refill too soon",
+      "Rejected",
+      77,
+      "Paid",
+      3
+    ],
+    [
+      189,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      190,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      191,
+      "Data entry",
+      "Rejected",
+      93,
+      "Paid",
+      3
+    ],
+    [
+      192,
+      "Eligibility",
+      "Rejected",
+      52,
+      "Paid",
+      3
+    ],
+    [
+      193,
+      "Coverage review",
+      "Rejected",
+      44,
+      "Paid",
+      3
+    ],
+    [
+      194,
+      "Eligibility",
+      "Rejected",
+      83,
+      "Paid",
+      3
+    ],
+    [
+      195,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      196,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      197,
+      "Coverage review",
+      "Rejected",
+      108,
+      "Paid",
+      3
+    ],
+    [
+      198,
+      "Eligibility",
+      "Rejected",
+      114,
+      "Reversed",
+      4
+    ],
+    [
+      199,
+      "Coverage review",
+      "Rejected",
+      75,
+      "Paid",
+      3
+    ],
+    [
+      200,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      201,
+      "Coverage review",
+      "Rejected",
+      92,
+      "Paid",
+      3
+    ],
+    [
+      202,
+      "Coverage review",
+      "Rejected",
+      162,
+      "Paid",
+      3
+    ],
+    [
+      203,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      204,
+      "Eligibility",
+      "Rejected",
+      156,
+      "Paid",
+      3
+    ],
+    [
+      205,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      206,
+      "Coverage review",
+      "Rejected",
+      79,
+      "Paid",
+      3
+    ],
+    [
+      207,
+      "Data entry",
+      "Rejected",
+      106,
+      "Paid",
+      3
+    ],
+    [
+      208,
+      "Eligibility",
+      "Rejected",
+      155,
+      "Paid",
+      3
+    ],
+    [
+      209,
+      "Data entry",
+      "Rejected",
+      149,
+      "Reversed",
+      4
+    ],
+    [
+      210,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      211,
+      "Coverage review",
+      "Rejected",
+      138,
+      "Paid",
+      3
+    ],
+    [
+      212,
+      "Eligibility",
+      "Rejected",
+      136,
+      "Paid",
+      3
+    ],
+    [
+      213,
+      "Data entry",
+      "Rejected",
+      135,
+      "Paid",
+      3
+    ],
+    [
+      214,
+      "Coverage review",
+      "Rejected",
+      65,
+      "Paid",
+      3
+    ],
+    [
+      215,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      216,
+      "Eligibility",
+      "Rejected",
+      109,
+      "Paid",
+      3
+    ],
+    [
+      217,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      218,
+      "Eligibility",
+      "Rejected",
+      55,
+      "Paid",
+      3
+    ],
+    [
+      219,
+      "Coverage review",
+      "Rejected",
+      123,
+      "Paid",
+      3
+    ],
+    [
+      220,
+      "Data entry",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      221,
+      "Eligibility",
+      "Rejected",
+      156,
+      "Paid",
+      3
+    ],
+    [
+      222,
+      "Coverage review",
+      "Rejected",
+      67,
+      "Paid",
+      3
+    ],
+    [
+      223,
+      "Coverage review",
+      "Rejected",
+      42,
+      "Paid",
+      3
+    ],
+    [
+      224,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      225,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      226,
+      "Refill too soon",
+      "Rejected",
+      160,
+      "Paid",
+      3
+    ],
+    [
+      227,
+      "Data entry",
+      "Rejected",
+      140,
+      "Paid",
+      3
+    ],
+    [
+      228,
+      "Refill too soon",
+      "Rejected",
+      123,
+      "Paid",
+      3
+    ],
+    [
+      229,
+      "Refill too soon",
+      "Rejected",
+      56,
+      "Paid",
+      3
+    ],
+    [
+      230,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      231,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      232,
+      "Coverage review",
+      "Rejected",
+      161,
+      "Paid",
+      3
+    ],
+    [
+      233,
+      "Refill too soon",
+      "Rejected",
+      122,
+      "Paid",
+      3
+    ],
+    [
+      234,
+      "Coverage review",
+      "Rejected",
+      119,
+      "Paid",
+      3
+    ],
+    [
+      235,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      236,
+      "Eligibility",
+      "Rejected",
+      122,
+      "Paid",
+      3
+    ],
+    [
+      237,
+      "Refill too soon",
+      "Rejected",
+      63,
+      "Paid",
+      3
+    ],
+    [
+      238,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      239,
+      "Refill too soon",
+      "Rejected",
+      170,
+      "Paid",
+      3
+    ],
+    [
+      240,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      241,
+      "Eligibility",
+      "Rejected",
+      58,
+      "Paid",
+      3
+    ],
+    [
+      242,
+      "Data entry",
+      "Rejected",
+      145,
+      "Reversed",
+      4
+    ],
+    [
+      243,
+      "Eligibility",
+      "Rejected",
+      148,
+      "Paid",
+      3
+    ],
+    [
+      244,
+      "Coverage review",
+      "Rejected",
+      138,
+      "Paid",
+      3
+    ],
+    [
+      245,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      246,
+      "Data entry",
+      "Rejected",
+      123,
+      "Paid",
+      3
+    ],
+    [
+      247,
+      "Data entry",
+      "Rejected",
+      137,
+      "Paid",
+      3
+    ],
+    [
+      248,
+      "Data entry",
+      "Rejected",
+      147,
+      "Paid",
+      3
+    ],
+    [
+      249,
+      "Eligibility",
+      "Rejected",
+      133,
+      "Paid",
+      3
+    ],
+    [
+      250,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      251,
+      "Coverage review",
+      "Rejected",
+      69,
+      "Paid",
+      3
+    ],
+    [
+      252,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      253,
+      "Coverage review",
+      "Rejected",
+      87,
+      "Reversed",
+      4
+    ],
+    [
+      254,
+      "Eligibility",
+      "Rejected",
+      120,
+      "Paid",
+      3
+    ],
+    [
+      255,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      256,
+      "Eligibility",
+      "Rejected",
+      148,
+      "Paid",
+      3
+    ],
+    [
+      257,
+      "Refill too soon",
+      "Rejected",
+      175,
+      "Paid",
+      3
+    ],
+    [
+      258,
+      "Eligibility",
+      "Rejected",
+      109,
+      "Paid",
+      3
+    ],
+    [
+      259,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      260,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      261,
+      "Eligibility",
+      "Rejected",
+      94,
+      "Paid",
+      3
+    ],
+    [
+      262,
+      "Coverage review",
+      "Rejected",
+      83,
+      "Paid",
+      3
+    ],
+    [
+      263,
+      "Data entry",
+      "Rejected",
+      75,
+      "Paid",
+      3
+    ],
+    [
+      264,
+      "Data entry",
+      "Rejected",
+      167,
+      "Reversed",
+      4
+    ],
+    [
+      265,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      266,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      267,
+      "Refill too soon",
+      "Rejected",
+      126,
+      "Paid",
+      3
+    ],
+    [
+      268,
+      "Data entry",
+      "Rejected",
+      76,
+      "Paid",
+      3
+    ],
+    [
+      269,
+      "Eligibility",
+      "Rejected",
+      139,
+      "Paid",
+      3
+    ],
+    [
+      270,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      271,
+      "Refill too soon",
+      "Rejected",
+      62,
+      "Paid",
+      3
+    ],
+    [
+      272,
+      "Coverage review",
+      "Rejected",
+      170,
+      "Paid",
+      3
+    ],
+    [
+      273,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      274,
+      "Data entry",
+      "Rejected",
+      106,
+      "Paid",
+      3
+    ],
+    [
+      275,
+      "Data entry",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      276,
+      "Data entry",
+      "Rejected",
+      170,
+      "Paid",
+      3
+    ],
+    [
+      277,
+      "Coverage review",
+      "Rejected",
+      86,
+      "Paid",
+      3
+    ],
+    [
+      278,
+      "Refill too soon",
+      "Rejected",
+      145,
+      "Paid",
+      3
+    ],
+    [
+      279,
+      "Eligibility",
+      "Rejected",
+      38,
+      "Paid",
+      3
+    ],
+    [
+      280,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      281,
+      "Coverage review",
+      "Rejected",
+      171,
+      "Paid",
+      3
+    ],
+    [
+      282,
+      "Refill too soon",
+      "Rejected",
+      70,
+      "Paid",
+      3
+    ],
+    [
+      283,
+      "Refill too soon",
+      "Rejected",
+      156,
+      "Paid",
+      3
+    ],
+    [
+      284,
+      "Eligibility",
+      "Rejected",
+      34,
+      "Paid",
+      3
+    ],
+    [
+      285,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      286,
+      "Coverage review",
+      "Rejected",
+      116,
+      "Reversed",
+      4
+    ],
+    [
+      287,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      288,
+      "Data entry",
+      "Rejected",
+      57,
+      "Paid",
+      3
+    ],
+    [
+      289,
+      "Refill too soon",
+      "Rejected",
+      156,
+      "Paid",
+      3
+    ],
+    [
+      290,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      291,
+      "Refill too soon",
+      "Rejected",
+      33,
+      "Paid",
+      3
+    ],
+    [
+      292,
+      "Coverage review",
+      "Rejected",
+      97,
+      "Paid",
+      3
+    ],
+    [
+      293,
+      "Coverage review",
+      "Rejected",
+      164,
+      "Paid",
+      3
+    ],
+    [
+      294,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      295,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      296,
+      "Data entry",
+      "Rejected",
+      35,
+      "Paid",
+      3
+    ],
+    [
+      297,
+      "Eligibility",
+      "Rejected",
+      173,
+      "Reversed",
+      4
+    ],
+    [
+      298,
+      "Refill too soon",
+      "Rejected",
+      75,
+      "Paid",
+      3
+    ],
+    [
+      299,
+      "Refill too soon",
+      "Rejected",
+      144,
+      "Paid",
+      3
+    ],
+    [
+      300,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      301,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      302,
+      "Data entry",
+      "Rejected",
+      55,
+      "Paid",
+      3
+    ],
+    [
+      303,
+      "Data entry",
+      "Rejected",
+      179,
+      "Paid",
+      3
+    ],
+    [
+      304,
+      "Eligibility",
+      "Rejected",
+      99,
+      "Paid",
+      3
+    ],
+    [
+      305,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      306,
+      "Data entry",
+      "Rejected",
+      41,
+      "Paid",
+      3
+    ],
+    [
+      307,
+      "Data entry",
+      "Rejected",
+      122,
+      "Paid",
+      3
+    ],
+    [
+      308,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      309,
+      "Eligibility",
+      "Rejected",
+      50,
+      "Paid",
+      3
+    ],
+    [
+      310,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      311,
+      "Data entry",
+      "Rejected",
+      164,
+      "Paid",
+      3
+    ],
+    [
+      312,
+      "Refill too soon",
+      "Rejected",
+      138,
+      "Paid",
+      3
+    ],
+    [
+      313,
+      "Data entry",
+      "Rejected",
+      163,
+      "Paid",
+      3
+    ],
+    [
+      314,
+      "Eligibility",
+      "Rejected",
+      151,
+      "Paid",
+      3
+    ],
+    [
+      315,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      316,
+      "Data entry",
+      "Rejected",
+      177,
+      "Paid",
+      3
+    ],
+    [
+      317,
+      "Coverage review",
+      "Rejected",
+      55,
+      "Paid",
+      3
+    ],
+    [
+      318,
+      "Refill too soon",
+      "Rejected",
+      124,
+      "Paid",
+      3
+    ],
+    [
+      319,
+      "Eligibility",
+      "Rejected",
+      96,
+      "Reversed",
+      4
+    ],
+    [
+      320,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      321,
+      "Refill too soon",
+      "Rejected",
+      122,
+      "Paid",
+      3
+    ],
+    [
+      322,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      323,
+      "Refill too soon",
+      "Rejected",
+      113,
+      "Paid",
+      3
+    ],
+    [
+      324,
+      "Data entry",
+      "Rejected",
+      136,
+      "Paid",
+      3
+    ],
+    [
+      325,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      326,
+      "Coverage review",
+      "Rejected",
+      41,
+      "Paid",
+      3
+    ],
+    [
+      327,
+      "Coverage review",
+      "Rejected",
+      147,
+      "Paid",
+      3
+    ],
+    [
+      328,
+      "Data entry",
+      "Rejected",
+      152,
+      "Paid",
+      3
+    ],
+    [
+      329,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      330,
+      "Coverage review",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      331,
+      "Refill too soon",
+      "Rejected",
+      173,
+      "Paid",
+      3
+    ],
+    [
+      332,
+      "Data entry",
+      "Rejected",
+      163,
+      "Paid",
+      3
+    ],
+    [
+      333,
+      "Refill too soon",
+      "Rejected",
+      84,
+      "Paid",
+      3
+    ],
+    [
+      334,
+      "Eligibility",
+      "Rejected",
+      137,
+      "Paid",
+      3
+    ],
+    [
+      335,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      336,
+      "Coverage review",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      337,
+      "Eligibility",
+      "Rejected",
+      92,
+      "Paid",
+      3
+    ],
+    [
+      338,
+      "Coverage review",
+      "Rejected",
+      146,
+      "Paid",
+      3
+    ],
+    [
+      339,
+      "Refill too soon",
+      "Rejected",
+      65,
+      "Paid",
+      3
+    ],
+    [
+      340,
+      "Eligibility",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      341,
+      "Eligibility",
+      "Rejected",
+      43,
+      "Reversed",
+      4
+    ],
+    [
+      342,
+      "Coverage review",
+      "Rejected",
+      54,
+      "Paid",
+      3
+    ],
+    [
+      343,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      344,
+      "Eligibility",
+      "Rejected",
+      121,
+      "Paid",
+      3
+    ],
+    [
+      345,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      346,
+      "Refill too soon",
+      "Rejected",
+      53,
+      "Paid",
+      3
+    ],
+    [
+      347,
+      "Eligibility",
+      "Rejected",
+      165,
+      "Paid",
+      3
+    ],
+    [
+      348,
+      "Refill too soon",
+      "Rejected",
+      91,
+      "Paid",
+      3
+    ],
+    [
+      349,
+      "Coverage review",
+      "Rejected",
+      42,
+      "Paid",
+      3
+    ],
+    [
+      350,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      351,
+      "Eligibility",
+      "Rejected",
+      110,
+      "Paid",
+      3
+    ],
+    [
+      352,
+      "Coverage review",
+      "Rejected",
+      107,
+      "Reversed",
+      4
+    ],
+    [
+      353,
+      "Coverage review",
+      "Rejected",
+      134,
+      "Paid",
+      3
+    ],
+    [
+      354,
+      "Data entry",
+      "Rejected",
+      44,
+      "Paid",
+      3
+    ],
+    [
+      355,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      356,
+      "Coverage review",
+      "Rejected",
+      42,
+      "Paid",
+      3
+    ],
+    [
+      357,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      358,
+      "Eligibility",
+      "Rejected",
+      109,
+      "Paid",
+      3
+    ],
+    [
+      359,
+      "Refill too soon",
+      "Rejected",
+      153,
+      "Paid",
+      3
+    ],
+    [
+      360,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      361,
+      "Refill too soon",
+      "Rejected",
+      146,
+      "Paid",
+      3
+    ],
+    [
+      362,
+      "Coverage review",
+      "Rejected",
+      83,
+      "Paid",
+      3
+    ],
+    [
+      363,
+      "Refill too soon",
+      "Rejected",
+      177,
+      "Reversed",
+      4
+    ],
+    [
+      364,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      365,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      366,
+      "Coverage review",
+      "Rejected",
+      79,
+      "Paid",
+      3
+    ],
+    [
+      367,
+      "Coverage review",
+      "Rejected",
+      83,
+      "Paid",
+      3
+    ],
+    [
+      368,
+      "Coverage review",
+      "Rejected",
+      72,
+      "Paid",
+      3
+    ],
+    [
+      369,
+      "Coverage review",
+      "Rejected",
+      82,
+      "Paid",
+      3
+    ],
+    [
+      370,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      371,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      372,
+      "Data entry",
+      "Rejected",
+      178,
+      "Paid",
+      3
+    ],
+    [
+      373,
+      "Coverage review",
+      "Rejected",
+      42,
+      "Paid",
+      3
+    ],
+    [
+      374,
+      "Coverage review",
+      "Rejected",
+      141,
+      "Reversed",
+      4
+    ],
+    [
+      375,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      376,
+      "Data entry",
+      "Rejected",
+      82,
+      "Paid",
+      3
+    ],
+    [
+      377,
+      "Data entry",
+      "Rejected",
+      97,
+      "Paid",
+      3
+    ],
+    [
+      378,
+      "Eligibility",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      379,
+      "Data entry",
+      "Rejected",
+      157,
+      "Paid",
+      3
+    ],
+    [
+      380,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      381,
+      "Eligibility",
+      "Rejected",
+      75,
+      "Paid",
+      3
+    ],
+    [
+      382,
+      "Data entry",
+      "Rejected",
+      89,
+      "Paid",
+      3
+    ],
+    [
+      383,
+      "Coverage review",
+      "Rejected",
+      41,
+      "Paid",
+      3
+    ],
+    [
+      384,
+      "Refill too soon",
+      "Rejected",
+      68,
+      "Paid",
+      3
+    ],
+    [
+      385,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Reversed",
+      2
+    ],
+    [
+      386,
+      "Eligibility",
+      "Rejected",
+      49,
+      "Paid",
+      3
+    ],
+    [
+      387,
+      "Refill too soon",
+      "Rejected",
+      61,
+      "Paid",
+      3
+    ],
+    [
+      388,
+      "Eligibility",
+      "Rejected",
+      39,
+      "Paid",
+      3
+    ],
+    [
+      389,
+      "Refill too soon",
+      "Rejected",
+      168,
+      "Paid",
+      3
+    ],
+    [
+      390,
+      "Refill too soon",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      391,
+      "Coverage review",
+      "Rejected",
+      154,
+      "Paid",
+      3
+    ],
+    [
+      392,
+      "Data entry",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      393,
+      "Eligibility",
+      "Rejected",
+      40,
+      "Paid",
+      3
+    ],
+    [
+      394,
+      "Data entry",
+      "Rejected",
+      81,
+      "Paid",
+      3
+    ],
+    [
+      395,
+      "Data entry",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ],
+    [
+      396,
+      "Eligibility",
+      "Rejected",
+      109,
+      "Reversed",
+      4
+    ],
+    [
+      397,
+      "Eligibility",
+      "Rejected",
+      106,
+      "Paid",
+      3
+    ],
+    [
+      398,
+      "Coverage review",
+      "Rejected",
+      97,
+      "Paid",
+      3
+    ],
+    [
+      399,
+      "Refill too soon",
+      "Rejected",
+      null,
+      "Rejected",
+      2
+    ],
+    [
+      400,
+      "Coverage review",
+      "Paid",
+      0,
+      "Paid",
+      1
+    ]
+  ]
+}

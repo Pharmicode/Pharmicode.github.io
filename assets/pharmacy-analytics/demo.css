@@ -1,0 +1,20 @@
+:root { color-scheme: light; font: 16px/1.55 system-ui, sans-serif; color: #142744; background: #edf2f7; }
+body { margin: 0; }
+main { max-width: 65rem; margin: auto; padding: clamp(1rem, 4vw, 4rem); }
+header { border-bottom: 1px solid #aebfd1; padding-bottom: 1.1rem; }
+a { color: #12558b; text-underline-offset: .2em; }
+h1 { font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.08; max-width: 19ch; margin: .35em 0; }
+.label { margin-top: 1.8rem; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+nav, footer { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; margin: 1.35rem 0; }
+[aria-current] { font-weight: 750; color: #142744; }
+section { background: #fff; border: 1px solid #c1ceda; border-radius: .6rem; padding: clamp(.9rem, 3vw, 2rem); }
+h2 { margin: 0 0 1rem; }
+label { display: block; font-weight: 650; }
+input, select { font: inherit; max-width: 100%; padding: .4rem .55rem; border: 1px solid #70879f; border-radius: .25rem; }
+.table-container { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid #d4dee8; }
+th { background: #e8eff6; }
+#map { display: grid; grid-template-columns: repeat(8, 1fr); gap: .23rem; max-width: 30rem; margin-top: .8rem; }
+.cell { text-align: center; padding: .35rem 0; background: #f9e8d5; font-variant-numeric: tabular-nums; }
+.cell.covered { background: #c9e3f5; }

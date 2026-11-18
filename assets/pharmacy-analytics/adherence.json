@@ -1,0 +1,57 @@
+{
+  "title": "Refill Gaps and Adherence Measurement",
+  "description": "Compare two approaches to overlapping fills across a simulated 180-day window.",
+  "columns": [
+    "Medication class",
+    "Coverage rule",
+    "Members",
+    "At or above 80%",
+    "Mean PDC (%)",
+    "0\u201314 uncovered days",
+    "15\u201329 uncovered days",
+    "30+ uncovered days"
+  ],
+  "rows": [
+    [
+      "Class A",
+      "Carry overlapping supply",
+      150,
+      72,
+      78.8,
+      38,
+      19,
+      93
+    ],
+    [
+      "Class A",
+      "Union of fill intervals",
+      150,
+      51,
+      72.9,
+      6,
+      29,
+      115
+    ],
+    [
+      "Class B",
+      "Carry overlapping supply",
+      150,
+      71,
+      78.7,
+      48,
+      14,
+      88
+    ],
+    [
+      "Class B",
+      "Union of fill intervals",
+      150,
+      47,
+      71.5,
+      9,
+      36,
+      105
+    ]
+  ],
+  "map": null
+}

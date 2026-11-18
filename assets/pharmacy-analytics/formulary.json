@@ -1,0 +1,43 @@
+{
+  "title": "Formulary Change Impact",
+  "description": "Review simulated claim history against rule changes effective January 1, 2027.",
+  "columns": [
+    "Product",
+    "Prior rule",
+    "New rule",
+    "Distinct members"
+  ],
+  "rows": [
+    [
+      "Demo A",
+      "Tier 1",
+      "Tier 2 + review",
+      67
+    ],
+    [
+      "Demo B",
+      "Tier 2",
+      "Tier 2 + quantity limit",
+      64
+    ],
+    [
+      "Demo C",
+      "Tier 1",
+      "Absent",
+      78
+    ],
+    [
+      "Demo D",
+      "Absent",
+      "Tier 1",
+      74
+    ],
+    [
+      "All changed products",
+      "",
+      "",
+      167
+    ]
+  ],
+  "map": null
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Medication Reconciliation and FHIR Data Quality",
+  "description": "Review conflicting statuses, ambiguous codes, and broken references from synthetic FHIR R4 examples.",
+  "columns": [
+    "Subject reference",
+    "Review reason",
+    "Source resource IDs"
+  ],
+  "rows": [
+    [
+      "Patient/demo-7",
+      "Ambiguous source code",
+      "MedicationStatement/7"
+    ],
+    [
+      "Patient/demo-999",
+      "Broken subject reference",
+      "MedicationDispense/11"
+    ],
+    [
+      "Patient/demo-14",
+      "Ambiguous source code",
+      "MedicationStatement/14"
+    ],
+    [
+      "Patient/demo-21",
+      "Ambiguous source code",
+      "MedicationStatement/21"
+    ],
+    [
+      "Patient/demo-999",
+      "Broken subject reference",
+      "MedicationDispense/22"
+    ],
+    [
+      "Patient/demo-28",
+      "Ambiguous source code",
+      "MedicationStatement/28"
+    ],
+    [
+      "Patient/demo-999",
+      "Broken subject reference",
+      "MedicationDispense/33"
+    ],
+    [
+      "Patient/demo-35",
+      "Ambiguous source code",
+      "MedicationStatement/35"
+    ],
+    [
+      "Patient/demo-3",
+      "Conflicting recorded statuses",
+      "MedicationStatement/3, MedicationRequest/3, MedicationDispense/3"
+    ],
+    [
+      "Patient/demo-6",
+      "Conflicting recorded statuses",
+      "MedicationStatement/6, MedicationRequest/6, MedicationDispense/6"
+    ],
+    [
+      "Patient/demo-9",
+      "Conflicting recorded statuses",
+      "MedicationStatement/9, MedicationRequest/9, MedicationDispense/9"
+    ],
+    [
+      "Patient/demo-12",
+      "Conflicting recorded statuses",
+      "MedicationStatement/12, MedicationRequest/12, MedicationDispense/12"
+    ],
+    [
+      "Patient/demo-15",
+      "Conflicting recorded statuses",
+      "MedicationStatement/15, MedicationRequest/15, MedicationDispense/15"
+    ],
+    [
+      "Patient/demo-18",
+      "Conflicting recorded statuses",
+      "MedicationStatement/18, MedicationRequest/18, MedicationDispense/18"
+    ],
+    [
+      "Patient/demo-24",
+      "Conflicting recorded statuses",
+      "MedicationStatement/24, MedicationRequest/24, MedicationDispense/24"
+    ],
+    [
+      "Patient/demo-27",
+      "Conflicting recorded statuses",
+      "MedicationStatement/27, MedicationRequest/27, MedicationDispense/27"
+    ],
+    [
+      "Patient/demo-30",
+      "Conflicting recorded statuses",
+      "MedicationStatement/30, MedicationRequest/30, MedicationDispense/30"
+    ],
+    [
+      "Patient/demo-33",
+      "Conflicting recorded statuses",
+      "MedicationStatement/33, MedicationRequest/33"
+    ],
+    [
+      "Patient/demo-36",
+      "Conflicting recorded statuses",
+      "MedicationStatement/36, MedicationRequest/36, MedicationDispense/36"
+    ],
+    [
+      "Patient/demo-39",
+      "Conflicting recorded statuses",
+      "MedicationStatement/39, MedicationRequest/39, MedicationDispense/39"
+    ]
+  ],
+  "map": null
+}

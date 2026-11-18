@@ -1,0 +1,2466 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-2"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-3"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-4"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-5"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-6"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-7"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-8"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-9"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-10"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-11"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-12"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-13"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-14"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-15"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-17"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-18"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-19"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-20"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-21"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-22"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-23"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-24"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-25"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-26"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-27"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-28"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-29"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-30"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-31"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-32"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-33"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-34"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-35"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-36"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-37"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-38"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-39"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo-40"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-1"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-1"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "1",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-1"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "2",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-2"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "2",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-2"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "2",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-2"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "3",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-3"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "3",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-3"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "3",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-3"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "4",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-4"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-4"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "4",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-4"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "5",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-5"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "5",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-5"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "5",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-5"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-6"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "6",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-6"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "6",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-6"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "7",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-7"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            },
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "7",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-7"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "7",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-7"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "8",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-8"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "8",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-8"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "8",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-8"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-9"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "9",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-9"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "9",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-9"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "10",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-10"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "10",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-10"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "10",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-10"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "11",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-11"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "11",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-11"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "11",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-999"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "12",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-12"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "12",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-12"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "12",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-12"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "13",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-13"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "13",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-13"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "13",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-13"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "14",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-14"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            },
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "14",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-14"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "14",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-14"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "15",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-15"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "15",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-15"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "15",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-15"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "16",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-16"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "16",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-16"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "16",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-16"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "17",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-17"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "17",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-17"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "17",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-17"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "18",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-18"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "18",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-18"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "18",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-18"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "19",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-19"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "19",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-19"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "19",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-19"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "20",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-20"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "20",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-20"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "20",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-20"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "21",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-21"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            },
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "21",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-21"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "21",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-21"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "22",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-22"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "22",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-22"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "22",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-999"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "23",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-23"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "23",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-23"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "23",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-23"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "24",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-24"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "24",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-24"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "24",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-24"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "25",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-25"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "25",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-25"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "25",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-25"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "26",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-26"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "26",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-26"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "26",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-26"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "27",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-27"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "27",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-27"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "27",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-27"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "28",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-28"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            },
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "28",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-28"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "28",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-28"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-29"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "29",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-29"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "29",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-29"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "30",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-30"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "30",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-30"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "30",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-30"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "31",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-31"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "31",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-31"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "31",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-31"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "32",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-32"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "32",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-32"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "32",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-32"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "33",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-33"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "33",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-33"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "33",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-999"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "34",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-34"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "34",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-34"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "34",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-34"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "35",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-35"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            },
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "35",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-35"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "35",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-35"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "36",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-36"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "36",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-36"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "36",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-36"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "37",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-37"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "37",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-37"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "37",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-37"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "38",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-38"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "38",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-38"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "38",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-38"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "39",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-39"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "39",
+        "status": "stopped",
+        "subject": {
+          "reference": "Patient/demo-39"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "39",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-39"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "40",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-40"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "40",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/demo-40"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        },
+        "intent": "order"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "40",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/demo-40"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://example.org/synthetic-medications",
+              "code": "demo-a"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

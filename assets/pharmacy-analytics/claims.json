@@ -1,0 +1,42 @@
+{
+  "title": "Prescription Claim Rejection and Recovery",
+  "description": "Follow retail pharmacy claims from first response to final disposition.",
+  "columns": [
+    "Rejection scenario",
+    "Initially rejected",
+    "Recovered",
+    "Ultimately unpaid",
+    "Median minutes to first payment"
+  ],
+  "rows": [
+    [
+      "Coverage review",
+      84,
+      69,
+      16,
+      94.5
+    ],
+    [
+      "Data entry",
+      74,
+      58,
+      18,
+      111.0
+    ],
+    [
+      "Eligibility",
+      74,
+      57,
+      17,
+      108
+    ],
+    [
+      "Refill too soon",
+      88,
+      65,
+      27,
+      119
+    ]
+  ],
+  "map": null
+}
